@@ -3,8 +3,8 @@ const productos = [
         categoria:1,
         precio:700,
         descripcion:  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ea a debitis cum nulla eligendi! Deserunt vitae",
-        nombre:"Colombian",
-        slug: "galeria1",
+        nombre:"JUMPER SILVESTRE",
+        slug: "jumper",
 
         cantidad: 1,
     },
