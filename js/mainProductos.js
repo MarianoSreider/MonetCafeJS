@@ -60,7 +60,7 @@ function listarProductos() {
 		let item = document.createElement("div");
 		item.classList.add("contenedorProducto");
 
-		item.innerHTML = `<div><h3 class="tituloRopa">${producto.nombre}</h3></div>                      
+		item.innerHTML = `<div><h3 class="tituloCafe">${producto.nombre}</h3></div>                      
                       <img class="imgProductos" src="../images/${producto.slug}.jpg" alt="${producto.nombre}">
 
                       <div>Precio: $${producto.precio}</div>
@@ -90,7 +90,7 @@ function mostrarAlert(e, producto) {
 	Swal.fire({
 		title: "Agregaste un  producto al carrito",
 
-		imageUrl: "../images/Logoprincipal.png",
+		imageUrl: "../images/PortadaMenu2.jpg",
 		imageWidth: 200,
 		imageHeight: 200,
 		imageAlt: "Custom image",
@@ -281,7 +281,7 @@ $("#myForm").on("submit", function (event) {
 				title: "Tus datos fueron ingresados =)",
 				text: "Te contactaremos a la brevedad",
 
-				imageUrl: "../images/Logoprincipal.png",
+				imageUrl: "../images/PortadaMenu2.jpg",
 				imageWidth: 225,
 				imageHeight: 175,
 				imageAlt: "Datos Ingresados",

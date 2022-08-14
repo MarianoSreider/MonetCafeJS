@@ -2,7 +2,7 @@ const productos = [
     {
         categoria:1,
         precio:700,
-        descripcion:  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ea a debitis cum nulla eligendi! Deserunt vitae",
+        descripcion:  "Los granos arábica de nuestro Master Origin Colombia se dejan madurar durante mucho más tiempo en las ramas y luego se recogen de forma individual justo el día en el que están perfectamente listos. Un peculiar café de cosecha tardía con potentes notas avinadas y a frutos rojos.Un tueste corto a temperaturas medias mantiene equilibrados los aromas profundos y delicados de Colombia.",
         nombre:"COLOMBIAN CAFE",
         slug: "colombian",
 
@@ -11,18 +11,18 @@ const productos = [
     {
         categoria:1,
         precio:750,
-        descripcion:  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ea a debitis cum nulla eligendi! Deserunt vitae",
+        descripcion:  "Un café de granos Peruanos en su máxima expresión: ligeras notas florales y a flor de azahar pueden descubrirse en esta deliciosa taza. Los granos de Master Origin Peruanos son secados bajo el calor, aun con el grano de café dentro de su cereza, para absorber los dulces sabores del fruto. Esta técnica manual, que asegura un secado uniforme, requiere mucho cuidado. Y los agricultores peruanos han utilizado este método durante más tiempo que nadie.",
         nombre:"PERU CAFE",
-        slug: "peru",
+        slug: "perun",
         
         cantidad: 1,
     },
     {
         categoria:1,
         precio:890,
-        descripcion:  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ea a debitis cum nulla eligendi! Deserunt vitae",
+        descripcion:  "Nicaragua Coffee recrea el sabor centro-americano equilibrado y agradable, inspirado en la tradición centenaria de las cafeterías del país con sus lujosos establecimientos y elegantes camareros. En esta taza suave, las notas dulces a cereales de los granos procesados de forma natural, se mezclan con las notas frutales de un Arábica colombiano lavado. Juntos ofrecen un sabor a cereal malteado y una textura sedosa que canta con la cálida grandeza de una composición clásica de café Nicaraguense.",
         nombre:"NICARAGUA CAFE",
-        slug: "nicaragua",
+        slug: "nicaraguan",
         
         cantidad: 1,
     },

@@ -31,7 +31,7 @@ body {
 
 .header {
   background: whitesmoke;
-  background: linear-gradient(131deg, whitesmoke 0%, whitesmoke 22%, #b2b39e 38%, #8d8f6f 56%, #7a7c55 100%);
+  background: linear-gradient(131deg, whitesmoke 0%, whitesmoke 22%, #3d3d15 38%, #1f201b 56%, #030300 100%);
   box-shadow: -2px 6px 10px #0000008c;
   z-index: 3; }
 
@@ -81,7 +81,7 @@ body {
 
 .btn-color {
   color: white;
-  background-color: #bfa074;
+  background-color: #c29556;
   border-color: #bfa07463 !important;
   transition: all 0.3s ease-in-out !important; }
 
@@ -156,7 +156,7 @@ body {
   padding: 10px 29px;
   font-weight: 300 !important; }
 
-.tituloRopa {
+.tituloCafe {
   color: #515455;
   margin-top: 45px;
   text-align: center;
@@ -380,16 +380,12 @@ body {
     bottom: 11.25rem; }
   #carruselTexto {
     margin: 3em; }
-  #quiensoyimgA {
-    margin: 3% 3%;
-    width: 29%; }
-  #quiensoyImgB {
-    width: 29%; } }
+  }
 
 @media only screen and (max-width: 1195px) {
   .imgProductos {
     width: 100%; }
-  .tituloRopa {
+  .tituloCafe {
     padding: 10px 25px; } }
 
 @media only screen and (max-width: 1024px) {
@@ -402,15 +398,14 @@ body {
     z-index: 3; }
   .divTotal {
     height: 14em; }
-  .tituloRopa {
+  .tituloCafe {
     font-size: 20px; }
   .tituloA {
     font-size: 47px; }
-  .quiensoyText {
-    font-size: 22px; } }
+  }
 
 @media only screen and (max-width: 1069px) {
-  .tituloRopa {
+  .tituloCafe {
     padding: 10px 13px; } }
 
 @media only screen and (max-width: 926px) {
@@ -425,27 +420,7 @@ body {
     width: 14em; } }
 
 @media only screen and (max-width: 768px) {
-  #subtitulo {
-    display: block; }
-  #frase {
-    font-size: 33px;
-    text-align: center; }
-  @keyframes fraseanimacion {
-    0% {
-      font-size: 0px; }
-    90% {
-      opacity: 1; }
-    100% {
-      font-size: 33px;
-      opacity: 0; } }
-  #quiensoyImgB {
-    right: 8%;
-    width: 54%;
-    transform: rotate(-10deg); }
-  #quiensoyimgA {
-    margin: 6% 5%;
-    width: 59%; }
-  .tituloRopa {
+  .tituloCafe {
     margin-top: 14px; }
   #carritoAbsolute {
     padding-left: 48%; } }
@@ -483,23 +458,14 @@ body {
     left: 6px; }
   .displayImg {
     flex-wrap: nowrap; }
-  #quiensoyimgA {
-    margin: 13% 4%;
-    width: 84%; }
-  #quiensoyImgB {
-    right: 8%;
-    width: 77%;
-    transform: rotate(-10deg); }
   #carritoAbsolute {
     padding-left: 38%;
     height: 138em; }
-  .quiensoyText {
-    font-size: 21px; }
   #productos {
     width: 95%; }
   .contenedorProducto {
     width: 49%; }
-  .tituloRopa {
+  .tituloCafe {
     font-size: 14px; }
   .tituloA {
     font-size: 36px; }
@@ -510,16 +476,7 @@ body {
     margin: 2%; }
   .divTotal {
     height: 10em; }
-  #frase {
-    font-size: 22px; }
-  @keyframes fraseanimacion {
-    0% {
-      font-size: 0px; }
-    90% {
-      opacity: 1; }
-    100% {
-      font-size: 22px;
-      opacity: 0; } } }
+   }
 
 @media only screen and (max-width: 412px) {
   .enlaceCategoria {
@@ -550,14 +507,14 @@ body {
     font-size: 20px; }
   #volver p {
     font-size: 13px; }
-  .tituloRopa {
+  .tituloCafe {
     padding: 10px 19px; } }
 
 @media only screen and (max-width: 410px) {
   .imgProductos {
     width: 10em;
     margin: 1%; }
-  .tituloRopa {
+  .tituloCafe {
     padding: 10px 2px; } }
 
 @media only screen and (max-width: 360px) {
@@ -577,12 +534,12 @@ body {
   .tituloA {
     padding: 0px 0px;
     font-size: 26px; }
-  .tituloRopa {
+  .tituloCafe {
     padding: 10px 1px; }
   }
 
 @media only screen and (max-width: 320px) {
-  .tituloRopa {
+  .tituloCafe {
     padding: 4px 0px; }
   .tituloA {
     padding: 0px 0px;
@@ -638,7 +595,7 @@ body {
       text-decoration: underline; }
     
     nav .navbar-toggler {
-      background-color: #110202;
+      background-color: #ede6e6;
       margin-top: 1rem;
       margin-bottom: 1rem;
       margin-right: 0.3rem; }
